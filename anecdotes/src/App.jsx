@@ -31,15 +31,15 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className="app">
       <h1>Anecdote of the day</h1>
-      <p>{anecdotes[selected]}</p>
+      <p className="anecdote">{anecdotes[selected]}</p>
       <p>has {votes[selected]} votes</p>
-      <Button handleClick={vote} text="vote" />
-      <Button handleClick={randomAnecdote} text="next anecdote" />
+      <Button className="primary" handleClick={vote} text="vote" />
+      <Button className="primary" handleClick={randomAnecdote} text="next anecdote" />
 
       <h1>Anecdote with most votes</h1>
-      <p>{anecdotes[votes.indexOf(Math.max(...votes))]}</p>
+      <p className="anecdote">{anecdotes[votes.indexOf(Math.max(...votes))]}</p>
       <p>has {Math.max(...votes)} votes</p>
     </div>
   );
