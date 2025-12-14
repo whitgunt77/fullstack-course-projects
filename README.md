@@ -8,8 +8,11 @@ Each project is located in its own subdirectory and can be run independently.
 ## 📁 Project Structure
 
 fullstack-course-projects/
+
       ├─ unicafe/
+      
       ├─ anecdotes/
+      
       └─ README.md
 
 Each subdirectory contains a complete **Vite + React** application with its own dependencies.
