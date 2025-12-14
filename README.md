@@ -61,12 +61,12 @@ npm install
 npm run dev
 ```
 
-## Technologies Used
+## 🖥 Technologies Used
 - React
 - Vite
 - JavaScript (ES6+)
 - npm
 
-## Notes
+## ✍🏼 Notes
 - Each project is **self-contained**
 - Projects only store data for the current browser session
